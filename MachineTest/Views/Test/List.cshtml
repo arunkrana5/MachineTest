@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "_Layout";
+}
+<link href="https://cdn.datatables.net/2.1.2/css/dataTables.dataTables.min.css" rel="stylesheet" />
+<div class="card">
+    <div class="card-header">
+        <div class="text-header">Test Form</div>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered" id="tbl_test">
+            <thead id="table_test">
+                <tr>
+                    <th>Sno</th>
+                    <th>ItemID</th>
+                    <th>Price</th>
+                    <th>Tax</th>
+                    <th>Qty</th>
+                    <th>Amount</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody id="tbody_test"></tbody>
+        </table>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.1.2/js/dataTables.min.js"></script>
+<script src="~/js/testlist.js"></script>

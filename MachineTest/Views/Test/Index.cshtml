@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "_Layout";
+}
+<input type="hidden" id="hd_id" value="@ViewBag.Id" />
+<div class="card">
+    <div class="card-header">
+        <div class="text-header">Test Form</div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <label>Name</label>
+                <input type="text" id="txtName" placeholder="Enter Name" class="form-control"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label>ItemID</label>
+                <input type="text" class="form-control" id="txtItemID" placeholder="Enter Item ID" readonly/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Price</label>
+                <input type="number" class="form-control" id="txtPrice" placeholder="Enter Price" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Tax %</label>
+                <input type="number" class="form-control" id="txtTax" placeholder="Enter Tax" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Qty</label>
+                <input type="number" class="form-control" id="txtQty" placeholder="Enter Quantity" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Amount</label>
+                <input type="number" class="form-control" id="txtAmount" placeholder="Enter Amount" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="btn_div">
+                <button class="btn btn-success" id="btn_Submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="~/js/testform.js"></script>
